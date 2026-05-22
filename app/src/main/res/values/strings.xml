@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">2048 Glass</string>
+    <string name="score">Score</string>
+    <string name="best">Best</string>
+    <string name="new_game">New Game</string>
+    <string name="win_title">2048 reached</string>
+    <string name="win_message">You cleared the core goal. Start again and chase a cleaner board.</string>
+    <string name="lose_title">No moves left</string>
+    <string name="lose_message">The board is locked. Reset and build a better chain.</string>
+    <string name="play_hint">Swipe on the board or use arrow keys / WASD in the emulator.</string>
+</resources>

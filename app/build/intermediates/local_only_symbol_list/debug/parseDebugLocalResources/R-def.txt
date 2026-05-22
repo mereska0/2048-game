@@ -1,0 +1,19 @@
+R_DEF: Internal format may change without notice
+local
+color splash_surface
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable splash_background
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string best
+string lose_message
+string lose_title
+string new_game
+string play_hint
+string score
+string win_message
+string win_title
+style Theme.Game2048
+style Theme.Game2048.Splash

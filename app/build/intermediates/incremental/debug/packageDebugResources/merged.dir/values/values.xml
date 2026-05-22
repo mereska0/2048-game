@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="splash_surface">#F6F1EA</color>
+    <string name="app_name">2048 Glass</string>
+    <string name="best">Best</string>
+    <string name="lose_message">The board is locked. Reset and build a better chain.</string>
+    <string name="lose_title">No moves left</string>
+    <string name="new_game">New Game</string>
+    <string name="play_hint">Swipe on the board or use arrow keys / WASD in the emulator.</string>
+    <string name="score">Score</string>
+    <string name="win_message">You cleared the core goal. Start again and chase a cleaner board.</string>
+    <string name="win_title">2048 reached</string>
+    <style name="Theme.Game2048" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" ns1:targetApi="o_mr1">true</item>
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+    <style name="Theme.Game2048.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_surface</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.Game2048</item>
+    </style>
+</resources>
